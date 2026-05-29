@@ -209,6 +209,22 @@ mark, .hl { background: linear-gradient(180deg, transparent 58%, rgba(242,160,7,
 .lang-toggle { font-weight: 700; font-size: .82rem; border: 1.5px solid var(--line); padding: .42rem .7rem; }
 .lang-toggle:hover { border-color: var(--chili); color: var(--chili-dark); }
 
+/* Segmented EN / VI switcher */
+.lang-switcher {
+  display: inline-flex; align-items: center;
+  border: 1.5px solid var(--line); border-radius: var(--radius-pill);
+  overflow: hidden; flex-shrink: 0;
+}
+.lang-btn {
+  background: transparent; border: 0;
+  padding: .38rem .65rem; font-size: .82rem; font-weight: 700;
+  cursor: pointer; color: var(--text-soft); line-height: 1;
+  transition: background .15s var(--ease), color .15s var(--ease);
+}
+.lang-btn + .lang-btn { border-left: 1.5px solid var(--line); }
+.lang-btn[aria-pressed="true"] { background: var(--chili); color: #fff; }
+.lang-btn:hover:not([aria-pressed="true"]) { background: var(--cream-deep); color: var(--chili-dark); }
+
 .cart-btn .cart-count {
   position: absolute; top: -2px; right: -2px;
   background: var(--chili); color: #fff; font-size: .66rem; font-weight: 800;

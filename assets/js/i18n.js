@@ -47,8 +47,13 @@
         if (attr && key && dict[key] != null) el.setAttribute(attr, dict[key]);
       });
     });
-    // <html lang> + the language toggle label show the OTHER language
+    // <html lang> attribute
     document.documentElement.lang = current;
+    // Segmented EN/VI switcher — mark the active button
+    document.querySelectorAll("[data-lang-btn]").forEach((btn) => {
+      btn.setAttribute("aria-pressed", String(btn.getAttribute("data-lang-btn") === current));
+    });
+    // Legacy single toggle (backwards compat)
     const toggle = document.querySelector("[data-lang-toggle]");
     if (toggle) toggle.textContent = dict["nav.lang"];
   }
@@ -72,10 +77,11 @@
     ready: setLang(preferredLang(), false), // promise other scripts can await
   };
 
-  // Wire up any language toggle buttons.
+  // Wire up language controls — segmented [data-lang-btn] or legacy [data-lang-toggle].
   document.addEventListener("click", (e) => {
-    const btn = e.target.closest("[data-lang-toggle]");
-    if (!btn) return;
-    setLang(current === "en" ? "vi" : "en");
+    const langBtn = e.target.closest("[data-lang-btn]");
+    if (langBtn) { setLang(langBtn.getAttribute("data-lang-btn")); return; }
+    const toggle = e.target.closest("[data-lang-toggle]");
+    if (toggle) setLang(current === "en" ? "vi" : "en");
   });
 })();

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(git pull *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://letrongnghia15.github.io/anlanho/pages/blog.html)"
+    ]
+  }
+}

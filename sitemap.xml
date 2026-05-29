@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://anlanho.com/</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anlanho.com/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://anlanho.com/?lang=vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://anlanho.com/"/>
+  </url>
+  <url>
+    <loc>https://anlanho.com/pages/shop.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anlanho.com/pages/shop.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://anlanho.com/pages/shop.html?lang=vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://anlanho.com/pages/shop.html"/>
+  </url>
+  <url>
+    <loc>https://anlanho.com/pages/wholesale.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anlanho.com/pages/wholesale.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://anlanho.com/pages/wholesale.html?lang=vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://anlanho.com/pages/wholesale.html"/>
+  </url>
+  <url>
+    <loc>https://anlanho.com/pages/about.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anlanho.com/pages/about.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://anlanho.com/pages/about.html?lang=vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://anlanho.com/pages/about.html"/>
+  </url>
+  <url>
+    <loc>https://anlanho.com/pages/blog.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anlanho.com/pages/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://anlanho.com/pages/blog.html?lang=vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://anlanho.com/pages/blog.html"/>
+  </url>
+  <url>
+    <loc>https://anlanho.com/pages/faq.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anlanho.com/pages/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://anlanho.com/pages/faq.html?lang=vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://anlanho.com/pages/faq.html"/>
+  </url>
+  <url>
+    <loc>https://anlanho.com/pages/contact.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anlanho.com/pages/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://anlanho.com/pages/contact.html?lang=vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://anlanho.com/pages/contact.html"/>
+  </url>
+  <url>
+    <loc>https://anlanho.com/pages/product.html?sku=BTT-CLASSIC-150</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anlanho.com/pages/product.html?sku=BTT-CLASSIC-150"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://anlanho.com/pages/product.html?sku=BTT-CLASSIC-150&amp;lang=vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://anlanho.com/pages/product.html?sku=BTT-CLASSIC-150"/>
+  </url>
+  <url>
+    <loc>https://anlanho.com/pages/product.html?sku=BTT-EXTRA-150</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anlanho.com/pages/product.html?sku=BTT-EXTRA-150"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://anlanho.com/pages/product.html?sku=BTT-EXTRA-150&amp;lang=vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://anlanho.com/pages/product.html?sku=BTT-EXTRA-150"/>
+  </url>
+  <url>
+    <loc>https://anlanho.com/pages/product.html?sku=BTT-VEGGIE-150</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anlanho.com/pages/product.html?sku=BTT-VEGGIE-150"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://anlanho.com/pages/product.html?sku=BTT-VEGGIE-150&amp;lang=vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://anlanho.com/pages/product.html?sku=BTT-VEGGIE-150"/>
+  </url>
+  <url>
+    <loc>https://anlanho.com/pages/product.html?sku=BTT-FAMILY-6PK</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anlanho.com/pages/product.html?sku=BTT-FAMILY-6PK"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://anlanho.com/pages/product.html?sku=BTT-FAMILY-6PK&amp;lang=vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://anlanho.com/pages/product.html?sku=BTT-FAMILY-6PK"/>
+  </url>
+</urlset>

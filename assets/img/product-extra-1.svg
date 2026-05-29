@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Extra Hot">
+  <defs>
+    <radialGradient id="bgg" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#FBE3D4"/><stop offset="100%" stop-color="#F6E8D2"/>
+    </radialGradient>
+    <linearGradient id="mix" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A11C16"/><stop offset="100%" stop-color="#D7281F"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bgg)"/>
+  <!-- plate -->
+  <circle cx="400" cy="410" r="270" fill="#fff" opacity="0.92"/>
+  <circle cx="400" cy="410" r="270" fill="none" stroke="#E7D7BE" stroke-width="6"/>
+  <!-- mix mound -->
+  <ellipse cx="400" cy="430" rx="215" ry="180" fill="url(#mix)"/>
+  <!-- rice-paper ribbons -->
+  <g stroke="#FBE6C0" stroke-width="11" stroke-linecap="round" opacity="0.85" fill="none">
+    <path d="M250 380 q70 -50 150 -10 t160 -5"/>
+    <path d="M260 460 q80 40 160 5 t150 10"/>
+    <path d="M300 520 q60 -30 120 0 t120 -10"/>
+  </g>
+  <!-- peanuts -->
+  <g fill="#D8A24A">
+    <ellipse cx="330" cy="360" rx="16" ry="11" transform="rotate(20 330 360)"/>
+    <ellipse cx="470" cy="395" rx="16" ry="11" transform="rotate(-15 470 395)"/>
+    <ellipse cx="420" cy="500" rx="16" ry="11" transform="rotate(30 420 500)"/>
+    <ellipse cx="300" cy="470" rx="15" ry="10" transform="rotate(-25 300 470)"/>
+  </g>
+  <!-- chili slices -->
+  <g fill="#D7281F">
+    <path d="M360 430 q20 -8 40 4 q-18 14 -40 -4z"/>
+    <path d="M450 460 q22 -6 42 6 q-20 12 -42 -6z"/>
+    <circle cx="520" cy="430" r="9"/>
+  </g>
+  <!-- herbs (rau ram) -->
+  <g fill="#6E9100">
+    <path d="M380 340 q14 -22 30 -6 q-6 22 -30 6z"/>
+    <path d="M300 410 q-16 -20 -32 -2 q8 22 32 2z"/>
+    <path d="M500 500 q16 -20 32 -2 q-8 22 -32 2z"/>
+  </g>
+  <!-- lime wedge -->
+  <g transform="translate(560 540) rotate(18)">
+    <path d="M0 0 a55 55 0 0 1 95 22 z" fill="#9FC131"/>
+    <path d="M6 6 a48 48 0 0 1 80 18 z" fill="#C7E07A"/>
+  </g>
+  <!-- label chip -->
+  <g transform="translate(400 700)" text-anchor="middle" font-family="Georgia, serif">
+    <rect x="-220" y="-34" width="440" height="64" rx="32" fill="#221C18" opacity="0.92"/>
+    <text x="0" y="-6" fill="#FCF4E8" font-size="26" font-weight="bold">Extra Hot</text>
+    <text x="0" y="20" fill="#F2A007" font-size="15" font-family="Arial">Siêu cay  ·  PLACEHOLDER IMAGE</text>
+  </g>
+</svg>

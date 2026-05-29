@@ -1,0 +1,7 @@
+# robots.txt — Ăn Là Nhớ (anlanho.com)
+User-agent: *
+Allow: /
+
+# Block nothing by default. If you add admin/staging paths, disallow them here.
+
+Sitemap: https://anlanho.com/sitemap.xml

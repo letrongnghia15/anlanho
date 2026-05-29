@@ -79,11 +79,15 @@
     ready: setLang(preferredLang(), false), // promise other scripts can await
   };
 
-  // Wire up language controls — segmented [data-lang-btn] or legacy [data-lang-toggle].
-  document.addEventListener("click", (e) => {
-    const langBtn = e.target.closest("[data-lang-btn]");
-    if (langBtn) { setLang(langBtn.getAttribute("data-lang-btn")); return; }
-    const toggle = e.target.closest("[data-lang-toggle]");
-    if (toggle) setLang(current === "en" ? "vi" : "en");
-  });
+  // Wire up language controls directly on each button (avoids stopPropagation issues).
+  function wireControls() {
+    document.querySelectorAll("[data-lang-btn]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        setLang(btn.getAttribute("data-lang-btn")).catch(() => {});
+      });
+    });
+    const toggle = document.querySelector("[data-lang-toggle]");
+    if (toggle) toggle.addEventListener("click", () => setLang(current === "en" ? "vi" : "en").catch(() => {}));
+  }
+  wireControls();
 })();

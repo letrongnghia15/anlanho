@@ -31,7 +31,7 @@
     const size = lang === "vi" ? p.size_vi : p.size_en;
     const out = p.stock === 0;
     const onSale = p.compare_at && p.compare_at > p.price;
-    const url = `${BASE}pages/product.html?sku=${encodeURIComponent(p.sku)}`;
+    const url = `${location.origin}/pages/product.html?sku=${encodeURIComponent(p.sku)}`;
 
     const flags = [];
     if (out) flags.push(`<span class="badge badge--out">${t("cta.soldout")}</span>`);

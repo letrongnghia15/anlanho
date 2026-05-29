@@ -116,11 +116,10 @@
     render();
   });
 
-  // Load data, then render after i18n is ready.
+  // Render as soon as data arrives; i18n:changed re-renders with translations.
   fetch(`${BASE}data/products.json`, { cache: "no-cache" })
     .then((r) => r.json())
-    .then((json) => { DATA = json; return window.ALN_I18N ? window.ALN_I18N.ready : null; })
-    .then(render)
+    .then((json) => { DATA = json; render(); })
     .catch(() => { if (empty) { empty.style.display = "block"; empty.textContent = "Could not load products."; } });
 
   document.addEventListener("i18n:changed", render);

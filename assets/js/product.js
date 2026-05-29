@@ -227,8 +227,7 @@
 
   fetch(`${BASE}data/products.json`, { cache: "no-cache" })
     .then((r) => r.json())
-    .then((json) => { DATA = json; P = json.products.find((x) => x.sku === sku) || null; return window.ALN_I18N ? window.ALN_I18N.ready : null; })
-    .then(render)
+    .then((json) => { DATA = json; P = json.products.find((x) => x.sku === sku) || null; render(); })
     .catch(() => { root.innerHTML = `<div class="wrap section center"><p>Could not load product.</p></div>`; });
 
   document.addEventListener("i18n:changed", render);

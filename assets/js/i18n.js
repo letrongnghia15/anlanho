@@ -49,9 +49,11 @@
     });
     // <html lang> attribute
     document.documentElement.lang = current;
-    // Segmented EN/VI switcher — mark the active button
+    // Segmented EN/VI switcher — mark the active button via both aria-pressed and class
     document.querySelectorAll("[data-lang-btn]").forEach((btn) => {
-      btn.setAttribute("aria-pressed", String(btn.getAttribute("data-lang-btn") === current));
+      const isActive = btn.getAttribute("data-lang-btn") === current;
+      btn.setAttribute("aria-pressed", String(isActive));
+      btn.classList.toggle("lang-btn--active", isActive);
     });
     // Legacy single toggle (backwards compat)
     const toggle = document.querySelector("[data-lang-toggle]");

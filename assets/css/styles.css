@@ -209,6 +209,19 @@ mark, .hl { background: linear-gradient(180deg, transparent 58%, rgba(242,160,7,
 .lang-toggle { font-weight: 700; font-size: .82rem; border: 1.5px solid var(--line); padding: .42rem .7rem; }
 .lang-toggle:hover { border-color: var(--chili); color: var(--chili-dark); }
 
+/* FAQ accordion */
+.faq-group { border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--surface); box-shadow: var(--shadow-sm); }
+.faq-group details { border-bottom: 1px solid var(--line); }
+.faq-group details:last-child { border-bottom: 0; }
+.faq-group summary { cursor: pointer; font-weight: 700; padding: 1.1rem 1.2rem; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem; transition: color .15s var(--ease); }
+.faq-group summary::-webkit-details-marker { display: none; }
+.faq-group summary::after { content: "+"; flex: 0 0 auto; font-size: 1.4rem; color: var(--chili); transition: transform .2s var(--ease); line-height: 1; }
+.faq-group details[open] > summary { color: var(--chili-dark); }
+.faq-group details[open] > summary::after { transform: rotate(45deg); }
+.faq-body { padding: 0 1.2rem 1.2rem; color: var(--text-soft); line-height: 1.7; }
+.faq-body a { color: var(--chili-dark); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+.faq-body p + p { margin-top: .6rem; }
+
 /* Segmented EN / VI switcher */
 .lang-switcher {
   display: inline-flex; align-items: center;
@@ -222,8 +235,8 @@ mark, .hl { background: linear-gradient(180deg, transparent 58%, rgba(242,160,7,
   transition: background .15s var(--ease), color .15s var(--ease);
 }
 .lang-btn + .lang-btn { border-left: 1.5px solid var(--line); }
-.lang-btn[aria-pressed="true"] { background: var(--chili); color: #fff; }
-.lang-btn:hover:not([aria-pressed="true"]) { background: var(--cream-deep); color: var(--chili-dark); }
+.lang-btn[aria-pressed="true"],.lang-btn.lang-btn--active { background: var(--chili); color: #fff; }
+.lang-btn:hover:not([aria-pressed="true"]):not(.lang-btn--active) { background: var(--cream-deep); color: var(--chili-dark); }
 
 .cart-btn .cart-count {
   position: absolute; top: -2px; right: -2px;

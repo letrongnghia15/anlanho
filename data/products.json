@@ -18,10 +18,10 @@
       "stock": 120,
       "featured": true,
       "images": [
-        "../assets/img/product-classic-1.svg",
-        "../assets/img/product-classic-2.svg"
+        "../assets/img/product-sot-bo.jpg",
+        "../assets/img/lifestyle-classic-spicy.jpg"
       ],
-      "image_card": "../assets/img/product-classic-1.svg",
+      "image_card": "../assets/img/product-sot-bo.jpg",
       "description_en": "Hand-mixed in small batches the way it's done on the streets of Tây Ninh: chewy rice-paper ribbons tossed with chili salt, dried beef floss, roasted peanuts, fried shallots, quail-egg-style toppings, and a squeeze of lime. Bold, tangy, addictive — eat it and you'll remember (Ăn là nhớ).",
       "description_vi": "Trộn tay từng mẻ nhỏ đúng kiểu Tây Ninh: bánh tráng dẻo trộn muối tôm cay, bò khô, đậu phộng rang, hành phi, kèm chút chanh tươi. Đậm đà, chua cay, gây nghiện — ăn là nhớ.",
       "ingredients_en": "Rice paper (rice, tapioca, salt), dried beef floss, roasted peanuts, dried shrimp, chili salt (Tây Ninh shrimp salt), fried shallots, green mango, Vietnamese coriander, lime, satay chili oil.",
@@ -49,9 +49,10 @@
       "stock": 64,
       "featured": true,
       "images": [
-        "../assets/img/product-extra-1.svg"
+        "../assets/img/product-sate-toi-ruoc.jpg",
+        "../assets/img/lifestyle-classic-spicy.jpg"
       ],
-      "image_card": "../assets/img/product-extra-1.svg",
+      "image_card": "../assets/img/product-sate-toi-ruoc.jpg",
       "description_en": "Everything you love about the Classic, dialed up with extra satay chili oil and a double hit of Tây Ninh shrimp salt. Sweat is part of the experience.",
       "description_vi": "Tất cả những gì bạn yêu thích ở vị Classic, nhưng tăng đô với sa tế và muối tôm Tây Ninh nhân đôi. Toát mồ hôi là chuyện bình thường.",
       "ingredients_en": "Rice paper (rice, tapioca, salt), dried beef floss, roasted peanuts, dried shrimp, double chili salt, satay chili oil (extra), fried shallots, green mango, Vietnamese coriander, lime.",
@@ -79,9 +80,10 @@
       "stock": 0,
       "featured": false,
       "images": [
-        "../assets/img/product-veggie-1.svg"
+        "../assets/img/product-me-hanh.jpg",
+        "../assets/img/product-rong-bien.jpg"
       ],
-      "image_card": "../assets/img/product-veggie-1.svg",
+      "image_card": "../assets/img/product-me-hanh.jpg",
       "description_en": "A meat-free take: rice-paper ribbons with roasted peanuts, fried shallots, green mango, herbs, lime, and a milder chili-lime seasoning. No beef floss, no dried shrimp.",
       "description_vi": "Phiên bản không thịt: bánh tráng trộn cùng đậu phộng rang, hành phi, xoài xanh, rau thơm, chanh và gia vị chanh-ớt dịu nhẹ. Không bò khô, không tôm khô.",
       "ingredients_en": "Rice paper (rice, tapioca, salt), roasted peanuts, fried shallots, green mango, Vietnamese coriander, lime, chili-lime salt, vegetable oil.",
@@ -109,9 +111,10 @@
       "stock": 200,
       "featured": false,
       "images": [
-        "../assets/img/product-classic-1.svg"
+        "../assets/img/product-sot-bo.jpg",
+        "../assets/img/lifestyle-ingredients-dark.jpg"
       ],
-      "image_card": "../assets/img/product-classic-1.svg",
+      "image_card": "../assets/img/product-sot-bo.jpg",
       "description_en": "Same great Classic recipe in a smaller bag — perfect for lunchboxes, travel, or when you just need a little taste of home. Classic spice level, no compromise on flavour.",
       "description_vi": "Công thức Classic quen thuộc trong gói nhỏ gọn — lý tưởng cho hộp cơm trưa, đi đường, hay khi chỉ cần một chút hương vị quê nhà.",
       "ingredients_en": "Rice paper (rice, tapioca, salt), dried beef floss, roasted peanuts, dried shrimp, chili salt (Tây Ninh shrimp salt), fried shallots, green mango, Vietnamese coriander, lime, satay chili oil.",
@@ -139,9 +142,10 @@
       "stock": 80,
       "featured": false,
       "images": [
-        "../assets/img/product-classic-1.svg"
+        "../assets/img/lifestyle-flat-lay.jpg",
+        "../assets/img/product-sot-bo.jpg"
       ],
-      "image_card": "../assets/img/product-classic-1.svg",
+      "image_card": "../assets/img/lifestyle-flat-lay.jpg",
       "description_en": "The full Classic recipe in a generous 300g bag — ideal for sharing at parties or stocking up the pantry. Same chewy rice-paper ribbons, same bold Tây Ninh shrimp salt, just more of it.",
       "description_vi": "Công thức Classic đầy đủ trong gói 300g rộng rãi — lý tưởng để chia sẻ ở bữa tiệc hay tích trữ trong tủ bếp. Vẫn là bánh tráng dẻo dai, vẫn là muối tôm Tây Ninh đậm đà.",
       "ingredients_en": "Rice paper (rice, tapioca, salt), dried beef floss, roasted peanuts, dried shrimp, chili salt (Tây Ninh shrimp salt), fried shallots, green mango, Vietnamese coriander, lime, satay chili oil.",
@@ -169,9 +173,10 @@
       "stock": 30,
       "featured": true,
       "images": [
-        "../assets/img/product-family-1.svg"
+        "../assets/img/product-all-flavors-poster.jpg",
+        "../assets/img/lifestyle-flat-lay.jpg"
       ],
-      "image_card": "../assets/img/product-family-1.svg",
+      "image_card": "../assets/img/product-all-flavors-poster.jpg",
       "description_en": "One Classic, one Extra Hot, one Veggie — beautifully packaged in a branded gift box. Great for Vietnamese holidays (Tết, Trung Thu), housewarming, or just showing someone you care. Free ribbon included.",
       "description_vi": "Một vị Classic, một vị Siêu Cay, một vị Chay — đóng gói sang trọng trong hộp quà có thương hiệu. Thích hợp cho Tết, Trung Thu, tân gia, hay đơn giản là để tặng người thân. Kèm ruy băng miễn phí.",
       "ingredients_en": "See individual flavors. Box contains peanut, shellfish, and fish ingredients.",
@@ -199,9 +204,10 @@
       "stock": 40,
       "featured": true,
       "images": [
-        "../assets/img/product-family-1.svg"
+        "../assets/img/product-all-flavors-poster.jpg",
+        "../assets/img/product-sot-thai.jpg"
       ],
-      "image_card": "../assets/img/product-family-1.svg",
+      "image_card": "../assets/img/product-all-flavors-poster.jpg",
       "description_en": "Two Classic, two Extra Hot, two Veggie — the easiest way to find your favorite or feed a crowd. Ships in protective packaging.",
       "description_vi": "Hai vị Classic, hai vị Siêu Cay, hai vị Chay — cách dễ nhất để tìm vị yêu thích hoặc đãi cả nhóm. Đóng gói bảo vệ khi vận chuyển.",
       "ingredients_en": "See individual flavors. Pack contains peanut, shellfish, and fish ingredients.",
